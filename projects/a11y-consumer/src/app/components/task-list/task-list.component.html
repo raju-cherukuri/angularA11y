@@ -1,0 +1,63 @@
+@defer (prefetch on immediate) {
+  <section focusTrap>
+    <h1 tabindex="0">TODO LIST</h1>
+    <hr/>
+    <div>
+      <h1 tabindex="0">Focusable Heading 1</h1>
+      <h2 tabindex="0">Focusable Heading 2</h2>
+      <label tabindex="0">Focusable Label</label>
+      <button ariaRole="button">Button 1</button>
+      <button>Button 2</button>
+      <button>Button 3</button>
+      <button>Button 4</button>
+      <a href="#">Link 1</a>
+      <input type="text" placeholder="Input field"/>
+      <hr/>
+
+      <div role="main">
+        <button (click)="openModal()">Open Modal</button>
+        <app-modal class="modal" *ngIf="isModalOpen" (close)="closeModal()">
+          <h1 tabindex="0">Modal Content</h1>
+        </app-modal>
+
+        <button
+          (click)="toggle()"
+          [ariaProperty]="'aria-expanded'"
+          [ariaValue]="isExpanded ? 'true' : 'false'"
+        >
+          Toggle
+        </button>
+        <div *ngIf="isExpanded">
+          <p>Content is expanded</p>
+        </div>
+      </div>
+      <hr/>
+      <h1>Live Region</h1>
+      <div liveRegion="assertive" id="notification">
+        {{ message }}
+      </div>
+      <button (click)="updateMessage()">Update Message</button>
+      <button (click)="save()">Save</button>
+    </div>
+    <ul tabindex="0" class="categories">
+      @for (category of categories(); track category.id) {
+        <li tabindex="0">{{ category.name }}</li>
+        <div class="tasks">
+          @for (task of category.tasks; track $index) {
+            <label tabindex="0"><strong>Name:</strong> {{ task.name }}</label>
+            <label><strong>Description:</strong> {{ task.description }}</label>
+            <label><strong>Priority:</strong> {{ task.priority }}</label>
+            <label><strong>Completed:</strong> {{ task.completed }}</label>
+            <label><strong>DueDate:</strong> {{ task.dueDate }}</label>
+          }
+        </div>
+      }
+    </ul>
+  </section>
+} @placeholder (minimum 1s) {
+  <section>
+    <h1>TODO LIST</h1>
+    <hr/>
+    <p>Loading...</p>
+  </section>
+}

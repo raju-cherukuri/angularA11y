@@ -1,0 +1,71 @@
+body {
+  font-family: "Roboto Light", "Helvetica Neue";
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #e3c5e3 10%, #acace3 25%, #FFFFFF 50%, #b99f70 75%),
+  linear-gradient(-45deg, #e3c5e3 10%, #acace3 25%, #FFFFFF 50%, #b99f70 75%);
+  background-size: 100% 100%, 100% 100%;
+  background-position: 0 0, 0 100%;
+  background-blend-mode: overlay;
+  filter: brightness(100%) contrast(105%) saturate(105%);
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+.header {
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  padding: 1em;
+}
+
+.main-layout {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  padding: 1em;
+}
+
+.sidebar {
+  background-color: transparent;
+  color: white;
+  padding: 1em;
+  width: 15.5em;
+  height: 100%;
+}
+
+.main {
+  flex: 1;
+  background-color: #f1f1f1;
+  padding: 1em;
+  overflow-y: auto;
+  border-radius: 0.25em;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  padding: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .main-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+
+  main {
+    flex: 1;
+    width: 100%;
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "categories": [
+    {
+      "name": "Work",
+      "tasks": [
+        {
+          "id": 1,
+          "name": "Complete project report",
+          "description": "Finish the final report for the project.",
+          "completed": false,
+          "priority": 1,
+          "dueDate": "2024-07-30T00:00:00Z"
+        },
+        {
+          "id": 2,
+          "name": "Attend team meeting",
+          "description": "Participate in the weekly team meeting.",
+          "completed": false,
+          "priority": 2,
+          "dueDate": "2024-07-26T00:00:00Z"
+        },
+        {
+          "id": 3,
+          "name": "Review code for the new feature",
+          "description": "Check and review the code for the new feature implementation.",
+          "completed": false,
+          "priority": 2,
+          "dueDate": "2024-07-27T00:00:00Z"
+        },
+        {
+          "id": 4,
+          "name": "Prepare presentation for client",
+          "description": "Create a presentation for the upcoming client meeting.",
+          "completed": false,
+          "priority": 1,
+          "dueDate": "2024-07-28T00:00:00Z"
+        },
+        {
+          "id": 5,
+          "name": "Respond to emails",
+          "description": "Reply to all pending emails.",
+          "completed": false,
+          "priority": 3,
+          "dueDate": "2024-07-25T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Fitness",
+      "tasks": [
+        {
+          "id": 6,
+          "name": "Go for a run",
+          "description": "Run 5 kilometers in the morning.",
+          "completed": false,
+          "priority": 2,
+          "dueDate": "2024-07-25T00:00:00Z"
+        },
+        {
+          "id": 7,
+          "name": "Attend yoga class",
+          "description": "Join the evening yoga class.",
+          "completed": false,
+          "priority": 2,
+          "dueDate": "2024-07-26T00:00:00Z"
+        },
+        {
+          "id": 8,
+          "name": "Do strength training",
+          "description": "Complete a strength training session.",
+          "completed": false,
+          "priority": 2,
+          "dueDate": "2024-07-27T00:00:00Z"
+        },
+        {
+          "id": 9,
+          "name": "Track daily steps",
+          "description": "Ensure to track daily steps using a fitness tracker.",
+          "completed": false,
+          "priority": 3,
+          "dueDate": "2024-07-25T00:00:00Z"
+        },
+        {
+          "id": 10,
+          "name": "Plan weekly meal prep",
+          "description": "Organize and plan meals for the upcoming week.",
+          "completed": false,
+          "priority": 1,
+          "dueDate": "2024-07-28T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "tasks": [
+        {
+          "id": 11,
+          "name": "Review monthly budget",
+          "description": "Analyze and review the monthly budget.",
+          "completed": false,
+          "priority": 1,
+          "dueDate": "2024-07-29T00:00:00Z"
+        },
+        {
+          "id": 12,
+          "name": "Pay credit card bill",
+          "description": "Pay the outstanding credit card bill.",
+          "completed": false,
+          "priority": 1,
+          "dueDate": "2024-07-25T00:00:00Z"
+        },
+        {
+          "id": 13,
+          "name": "Check investment portfolio",
+          "description": "Review the current investment portfolio.",
+          "completed": false,
+          "priority": 2,
+          "dueDate": "2024-07-26T00:00:00Z"
+        },
+        {
+          "id": 14,
+          "name": "Set up automatic savings",
+          "description": "Configure automatic savings transfers.",
+          "completed": false,
+          "priority": 2,
+          "dueDate": "2024-07-27T00:00:00Z"
+        },
+        {
+          "id": 15,
+          "name": "Plan for tax filing",
+          "description": "Prepare documents and plan for tax filing.",
+          "completed": false,
+          "priority": 1,
+          "dueDate": "2024-07-30T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "Health",
+      "tasks": [
+        {
+          "id": 16,
+          "name": "Schedule a doctor's appointment",
+          "description": "Book an appointment with the doctor.",
+          "completed": false,
+          "priority": 1,
+          "dueDate": "2024-07-25T00:00:00Z"
+        },
+        {
+          "id": 17,
+          "name": "Take vitamins",
+          "description": "Take daily vitamins.",
+          "completed": false,
+          "priority": 3,
+          "dueDate": "2024-07-25T00:00:00Z"
+        },
+        {
+          "id": 18,
+          "name": "Drink 8 glasses of water",
+          "description": "Ensure to drink 8 glasses of water.",
+          "completed": false,
+          "priority": 3,
+          "dueDate": "2024-07-25T00:00:00Z"
+        },
+        {
+          "id": 19,
+          "name": "Track sleep hours",
+          "description": "Monitor and track sleep hours.",
+          "completed": false,
+          "priority": 2,
+          "dueDate": "2024-07-25T00:00:00Z"
+        },
+        {
+          "id": 20,
+          "name": "Plan a healthy meal",
+          "description": "Plan a nutritious meal for the day.",
+          "completed": false,
+          "priority": 2,
+          "dueDate": "2024-07-26T00:00:00Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ngx-angular-a11y",
+  "version": "0.0.1",
+  "description": "The Angular Accessibility Library provides a set of directives and services to enhance the accessibility of your Angular applications. This library includes utilities for managing ARIA properties, roles, focus, and live regions, making it easier to create accessible web applications.",
+  "author": {"name": "Bangar Raju Cherukuri", "email": "cbraju@hotmail.com", "url": "https://github.com/raju-cherukuri"},
+  "repository": {"type": "git", "url": "https://github.com/raju-cherukuri/angularA11y"},
+  "homepage": "https://github.com/raju-cherukuri/angularA11y",
+  "keywords": ["angular-a11y", "angular", "angularv18"],
+  "license":"MIT",
+  "peerDependencies": {
+    "@angular/common": "^18.1.0",
+    "@angular/core": "^18.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
